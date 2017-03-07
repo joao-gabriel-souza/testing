@@ -8,7 +8,7 @@
         <li>{{Auth::user()->email}}</li>
     </ul>
 </section>
-
+Essa alteração foi feita a partir de um clone, simulando um remoto
 
 
 @endsection
