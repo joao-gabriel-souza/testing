@@ -7,7 +7,6 @@ Lista de usuários
 
     <ul>
         <li>{{$user->name}}</li>
-        <li></li>
     </ul>
     
 @endforeach
