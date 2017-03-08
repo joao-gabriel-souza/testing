@@ -1,8 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-Lista de usuários
+
 <section class="container">
+Lista de usuários
 @foreach($users as $user)
 
     <ul>
