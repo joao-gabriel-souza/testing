@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'HomeController@index');
+Route::get('/', 'PostsController@listaposts');
 
 
 Route::auth();
@@ -26,3 +26,7 @@ Route::get('/redirect/{social}', 'SocialAuthController@redirect');
 Route::get('/callback/{social}', 'SocialAuthController@callback');
 
 Route::get('/users', 'UserController@listusers');
+
+Route::get('/addpost', 'PostsController@form');
+Route::post('/gravapost', 'PostsController@gravapost');
+Route::get('/artigo/{id}', 'PostsController@mostraartigo');

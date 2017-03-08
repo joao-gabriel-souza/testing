@@ -7,6 +7,14 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "laravel-elixir": "^5.0.0",
-    "bootstrap-sass": "^3.0.0"
-  }
+    "bootstrap-sass": "^3.0.0",
+    "gulp-uglify" : "*",
+    "gulp-concat" : "*"
+  },
+  
+  "name": "aprendendo",
+  "version": "1.0.0",
+  "description": "Aprendendo Gulp",
+  "author": "Joao<seu@email.com.br>"
+  
 }
